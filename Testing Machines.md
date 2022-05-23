@@ -183,7 +183,7 @@ For this machine we will want to test:
  - When the machine reaches LOADING_EXAMPLE_DATA
    - Check if the correct service function is called, loadExample in this case
    - Check if when the invoke resolves, the machine transitions to VIEWING_SECOND_PAGE and it sets the correct value to the context (see assign in onDone)
-   - Check if when the invoke rejects (and error is throw inside the service function), the machine transitions to VIEWING_FIRST_PAGE
+   - Check if when the invoke rejects (an error is thrown inside the service function), the machine transitions to VIEWING_FIRST_PAGE
 
 <details>
   <summary>This list translates into:</summary>
