@@ -9,7 +9,7 @@
 
 ## Goal
 
-The goal if this document is to provide a good base for understanding how we test machines and their affiliated files. All tests provided should result in 100% test coverage for all files except `example.services.ts`.
+The goal of this document is to provide a good base for understanding how we test machines and their affiliated files. All tests provided should result in 100% test coverage for all files except `example.services.ts`.
 
 ## Example files
 
