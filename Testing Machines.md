@@ -537,7 +537,7 @@ Every time the machine transitions it will go though:
 NOTICE:
 - every line should include `return`, otherwise it will continue going through all following if statement and eventually also reject().
 - This test also contains a great example for when you want to test if the machine transitions to a state multiple times.
-- This tests contains an example of how you make an `invoke` reject to end up in its `onError`.
+- This test contains an example of how you make an `invoke` reject to end up in its `onError`.
 
 
 #### Testing changes in the state
@@ -582,4 +582,4 @@ NOTICE:
 
 </details>
 
-In this test we are checking of the context is being updated when we expect it. when LOADING_EXAMPLE_DATA resolves it should set someValue in the context. Here we check exactly that, context.someValue should be equal to the result of the service function loadExample.
+In this test we are checking if the context is being changed to what we expect. when LOADING_EXAMPLE_DATA resolves it should set someValue in the context. Here we check exactly that, context.someValue should be equal to the result of the service function loadExample (look at the mocked response in beforeEach() ).
